@@ -1,0 +1,263 @@
+body{
+    background-color: white;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-top: -17px;
+}
+
+#main{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    height: auto;
+}
+
+header{
+    background-color: white;
+    margin: auto;
+    height: 150px;
+    background-image:  url("Images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headerTop{
+    background-color: black;
+    margin-top: 15px;
+}
+nav{
+    border-top: 1px solid lightgray;
+    border-bottom: 3px double lightgray;
+    width: 80%;
+    margin: auto;
+}
+
+aside{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+}
+#homeContent{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+
+}
+.navLinks{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.navLinks a{
+    text-decoration: none;
+    padding: 10px;
+    color: #7f736b;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navLinks a:hover
+{
+    color: black;
+    background-color: #aae2d3;
+
+}
+
+.asideLinks{
+    padding: 5px;
+}
+.asideLinks a{
+    color: black;
+    text-decoration: none;
+}
+#mainContent{
+    background-color: white;
+    height: auto;
+    width: 78%;
+    float: right;
+    display: inline-block;
+}
+
+#search{
+    display: inline-block;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.menu{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.cart table{
+    border-collapse: collapse;
+    border-top: 1px solid #F7F7F0;
+    border-bottom: 1px solid #F7F7F0;
+    width: 70%;
+    margin: auto;
+}
+.cart th{
+    text-align: left;
+    border-bottom: 1px solid #F7F7F0;
+}
+.cart td{
+    border-bottom: 1px solid #F7F7F0;
+}
+.cartimg{width: 40%;
+         height: auto;}
+#Container{
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.footer-distributed{
+    background-color: black;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+/*.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  white;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}*/
+
+.footer-distributed .footer-right img{
+    max-width: 100%;
+    height: auto;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+input.addcart{
+    background-color: #e5f0ef;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.searchResults{
+    width: 80%;
+    margin: auto;
+}
+.searchResults p{
+    text-align: center;
+    text-decoration: none;
+}
+.searchResults a{
+    color: black;
+    text-decoration: none;
+}
+.pagination {
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.prdisplay{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.displayProducts{
+    width: 67%;
+    margin: auto;
+}
+.displayProducts img{
+    width: auto;
+    height: 150px;
+    margin: auto;
+    margin-left: -25%;
+}
+
+.displayProducts p{
+    width: 100%;
+    padding-top: 3px;
+}
